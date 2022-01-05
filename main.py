@@ -64,7 +64,7 @@ def get_post(id: int, response: Response):
 def delete_post():
     # delete post
     # find the index in the array that has a required ID
-    # my_posts()
+    # my_posts()!!
     index = find_index_post(id)
 
     my_posts.pop(index)
